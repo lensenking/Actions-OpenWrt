@@ -16,3 +16,5 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# 添加高性能 Turbo ACC 模块源码
+git clone -b luci https://github.com/chenmozhijin/turboacc.git package/turboacc
